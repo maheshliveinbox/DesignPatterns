@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryTests.cs" />
+    <Compile Include="FactoryMethodTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,10 @@
     <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj">
       <Project>{1f4b4241-ee08-4b90-9755-8b88177a1f3a}</Project>
       <Name>AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
+      <Project>{51b345a3-3a3d-419f-99ff-56cc5af349cb}</Project>
+      <Name>FactoryMethod</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
