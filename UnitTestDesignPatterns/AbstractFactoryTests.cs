@@ -1,5 +1,4 @@
-﻿using System;
-using AbstractFactory;
+﻿using AbstractFactory;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestDesignPatterns

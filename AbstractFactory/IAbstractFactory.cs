@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
     // The Abstract Factory interface declares a set of methods that return
     // different abstract products. These products are called a family and are

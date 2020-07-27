@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
     // Concrete Products are created by corresponding Concrete Factories.
     public class ConcreteProductB2 : IAbstractProductB

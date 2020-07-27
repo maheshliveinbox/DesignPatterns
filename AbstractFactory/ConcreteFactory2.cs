@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
     // Each Concrete Factory has a corresponding product variant.
     public class ConcreteFactory2 : IAbstractFactory

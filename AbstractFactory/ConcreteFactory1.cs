@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
     // Concrete Factories produce a family of products that belong to a single
     // variant. The factory guarantees that resulting products are compatible.
