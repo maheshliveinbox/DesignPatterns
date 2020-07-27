@@ -6,7 +6,7 @@ namespace FactoryMethod
 {
     public class Client
     {
-        public string Result { get; set; }
+        public string Result { get; private set; }
         public void ClientCode(Creator creator)
         {
             Result = creator.SomeOperation();
