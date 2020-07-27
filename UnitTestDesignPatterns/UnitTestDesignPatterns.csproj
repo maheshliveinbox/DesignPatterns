@@ -70,6 +70,10 @@
       <Project>{51b345a3-3a3d-419f-99ff-56cc5af349cb}</Project>
       <Name>FactoryMethod</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Prototype\Prototype.csproj">
+      <Project>{2700d097-4d21-4158-9bdf-eb0a4261fbbb}</Project>
+      <Name>Prototype</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
