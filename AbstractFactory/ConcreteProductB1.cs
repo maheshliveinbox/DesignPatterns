@@ -15,7 +15,7 @@
         {
             var result = collaborator.UsefulFunctionA();
 
-            return $"the Result of th eBi collaborating with the ({result})";
+            return $"the Result of the B1 collaborating with the ({result})";
         }
     }
 }

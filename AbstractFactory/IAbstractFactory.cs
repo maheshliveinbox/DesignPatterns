@@ -10,5 +10,6 @@
     {
         IAbstractProductA CreateProductA();
         IAbstractProductB CreateProductB();
+        IAbstractProductC CreateProductC();
     }
 }

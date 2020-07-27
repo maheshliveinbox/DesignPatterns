@@ -16,7 +16,7 @@ namespace UnitTestDesignPatterns
             client.ClientMethod(new ConcreteFactory1());
 
             // Assert
-            Assert.AreNotEqual(string.Empty, client.Result);
+            Assert.AreNotEqual(string.Empty, client.Result, client.Result);
         }
     }
 }

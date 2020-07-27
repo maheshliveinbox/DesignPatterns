@@ -15,5 +15,10 @@
         {
             return new ConcreteProductB1();
         }
+
+        public IAbstractProductC CreateProductC()
+        {
+            return new ConcreteProductC1();
+        }
     }
 }
