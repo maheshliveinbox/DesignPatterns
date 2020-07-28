@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BuilderTests.cs" />
     <Compile Include="SingletonTests.cs" />
+    <Compile Include="AdaptorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -62,6 +63,10 @@
     <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj">
       <Project>{1f4b4241-ee08-4b90-9755-8b88177a1f3a}</Project>
       <Name>AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Adapter\AdapterPattern.csproj">
+      <Project>{cfdaf983-080d-46e8-8d3a-ee4e999fc64c}</Project>
+      <Name>AdapterPattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\Builder\Builder.csproj">
       <Project>{c410092d-7d56-410f-b96e-199008185d18}</Project>
